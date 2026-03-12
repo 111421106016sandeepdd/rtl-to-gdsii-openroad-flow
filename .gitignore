@@ -1,0 +1,13 @@
+# generated simulation files
+*.vcd
+*.out
+*.dot
+
+# local binaries
+alu_sim
+
+# editor / OS junk
+*.swp
+*~
+.DS_Store
+desktop.ini

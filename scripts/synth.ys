@@ -1,0 +1,6 @@
+read_verilog rtl/alu.v
+synth -top alu
+opt
+abc -fast
+stat
+write_verilog reports/alu_netlist.v

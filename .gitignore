@@ -3,7 +3,7 @@
 *.out
 *.dot
 
-# compiled binaries
+# binaries
 alu_sim
 
 # editor junk

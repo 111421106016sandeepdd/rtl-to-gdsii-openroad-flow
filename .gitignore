@@ -1,12 +1,12 @@
-# generated simulation files
+# simulation artifacts
 *.vcd
 *.out
 *.dot
 
-# local binaries
+# compiled binaries
 alu_sim
 
-# editor / OS junk
+# editor junk
 *.swp
 *~
 .DS_Store

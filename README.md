@@ -104,3 +104,52 @@ This project demonstrates RTL verification, synthesis, and backend flow explorat
 - Capture timing and area reports from a backend run
 - Extend the exploration to a sequential design block
 
+
+---
+
+## Quantitative Results (Yosys Synthesis)
+
+- Total cells: ~646
+- Total wires: ~618
+- Wire bits: ~713
+
+### Observations
+- Purely combinational design (no latches/memory inferred)
+- Arithmetic operations expanded into complex gate structures
+- Significant growth from compact RTL to gate-level netlist
+
+
+---
+
+## RTL to GDSII Flow Understanding
+
+This project explores how RTL transitions into physical implementation:
+
+1. **RTL Design**
+   - Behavioral Verilog description of logic
+
+2. **Synthesis (Yosys)**
+   - Converts RTL → gate-level netlist
+   - Maps logic to standard cells
+
+3. **Floorplanning (conceptual)**
+   - Defines chip area and layout regions
+
+4. **Placement (conceptual)**
+   - Positions standard cells physically
+
+5. **Routing (conceptual)**
+   - Connects placed cells using metal layers
+
+6. **Timing Analysis**
+   - Ensures design meets timing constraints
+
+7. **GDSII Generation**
+   - Final layout for fabrication
+
+
+---
+
+## Key Highlight
+This project demonstrates practical understanding of how RTL designs are transformed into gate-level implementations and prepared for backend physical design in modern ASIC workflows.
+
